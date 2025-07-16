@@ -1,0 +1,26 @@
+File format for instances of the capital budgeting problem.
+
+
+The first line contains general parameters:
+NumberOfItems(N) Budget(B) FirstStageLoanAmount(C1) SecondStageLoanAmount(C2) FirstStageLoanCost(lambda) SecondStageLoanCost(lambda*mu) DiscountFactorForLateInvestment(f) DummyValue(Rho, only used for instance generation) NumberOfRiskFactors(M)
+
+One line for each item i:
+NominalProfit(\bar{p}_i) InvestmentCost(c_i) ImpactOfRiskFactor1(Q_{i,1}) ... ImpactOfRiskFactorM(Q_{i,M})
+
+
+
+
+File format for instances of the robust assignment problem.
+
+
+The first line contains general parameters:
+NumberOfDecisions(N) NumberofAgents(A) NumberofTasks(T) 
+
+The second line contains the weight of each agent:
+Agent1_weight ... AgentA_weight
+
+The third line contains the capacity of each task:
+Task1_capacity ... TaskT_capacity
+
+One line for each link (decision):
+agent_index task_index nominal_reward
