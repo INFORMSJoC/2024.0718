@@ -27,7 +27,7 @@ Below is the BibTex for citing this snapshot of the repository.
   title =         {Network Flow Models for Robust Binary Optimization with Selective Adaptability},
   year =          {2025},
   doi =           {10.1287/ijoc.2024.0718.cd},
-  url =           {https://github.com/INFORMSJoC/2024.0718,
+  url =           {https://github.com/INFORMSJoC/2024.0718},
   note =          {Available for download at https://github.com/INFORMSJoC/2024.0718},
 }  
 ```
